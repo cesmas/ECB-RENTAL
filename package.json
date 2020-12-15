@@ -1,0 +1,30 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "API for consultiong user and password in Mongo for giving access to users",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Cesmas",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.14.0",
+    "eslint-plugin-react": "^7.21.5"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
